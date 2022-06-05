@@ -36,6 +36,9 @@
     "restaurant": {
       "model": "restaurant",
       "via": "dishes"
+    },
+    "quantity": {
+      "type": "integer"
     }
   }
 }
