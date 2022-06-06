@@ -5,4 +5,10 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+  // 注文を作成する
+  create: async (ctx) => {
+    const { address, amount, dishes, token } = JSON.parse(ctx.request.body)
+    const charge = 
+  }
+};
